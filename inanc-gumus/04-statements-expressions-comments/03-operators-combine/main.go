@@ -1,14 +1,21 @@
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Shy Semicolons
+// EXERCISE: Operators combine the expressions
 //
-//  1. Try to type your statements by separating them using
-//     semicolons
+//  Print the expected output below using the string
+//  concatenation operator.
 //
-//  2. Observe how Go fixes them for you
+// HINT
+//  Use + operator multiple times to create "Hello!!!?".
 //
+// EXPECTED OUTPUT
+//  "Hello!!!?"
 // ---------------------------------------------------------
 
 func main() {
+
+	fmt.Println("Hello!" + "World")
 }
