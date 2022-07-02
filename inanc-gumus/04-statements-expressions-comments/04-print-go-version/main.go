@@ -1,0 +1,1 @@
+package _4_print_go_version
